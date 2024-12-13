@@ -1,6 +1,6 @@
-import TabelaDecaci from "@/app/bmi/TabelaDecaci";
-import TabelaDevojcice from "@/app/bmi/TabelaDevojcice";
-import TabelaOdrasli from "@/app/bmi/TabelaOdrasli";
+import TabelaDecaci from "@/app/indeks-telesne-mase/TabelaDecaci";
+import TabelaDevojcice from "@/app/indeks-telesne-mase/TabelaDevojcice";
+import TabelaOdrasli from "@/app/indeks-telesne-mase/TabelaOdrasli";
 import Image from "next/image";
 import Link from "next/link";
 

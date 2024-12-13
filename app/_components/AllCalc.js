@@ -12,8 +12,8 @@ const buttons = [
     label: "Procenti",
   },
   {
-    id: "bmi",
-    path: "/bmi",
+    id: "indeks-telesne-mase",
+    path: "/indeks-telesne-mase",
     className: "bg-purple-900 px-7 py-2 text-white",
     label: "BMI",
   },

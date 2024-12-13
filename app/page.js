@@ -3,11 +3,10 @@ import HomeText from "./_components/textovi/HomeText";
 //
 export const metadata = {
   title: {
-    template: " %s -Kalkulator onlajn",
-    default: "Kalkulator onlajn",
+    default: "Kalkulatori onlajn - kalkulatori za svakodnevnu upotrebu",
   },
   description:
-    "Online kalkulator - procenti, zarade, porez, registracija, cm u inče",
+    "Online kalkulatori namenjeni da vam uštede vreme. Procenti, konverzije mase, konverzije dužine, Računanje indeksa telesne mase...",
 };
 
 export default function Home() {

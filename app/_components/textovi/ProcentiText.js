@@ -71,8 +71,8 @@ function ProcentiText() {
         <p className="py-2">5000000 / 100 * 51 = 2550000</p>
         <p className="py-2">Na izbore je izašlo 2550000 glasača.</p>
         <p className="py-2">
-          Ako od ukupnog broja glasača pobednička partija dobije 51% glasova,
-          tada:
+          Ako od ukupnog broja izašlih glasača pobednička partija dobije 51%
+          glasova, tada:
         </p>{" "}
         <p className="py-2">2550000 / 100 * 51 = 1300500</p>
         <p className="py-2">Pobednička partija je dobila 1300500 glasova</p>

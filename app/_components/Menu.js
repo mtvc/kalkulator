@@ -9,7 +9,7 @@ function Menu({ style }) {
         <a href="/procenti">Procenti</a>
       </li>
       <li className="hover:underline">
-        <a href="/bmi">BMI</a>
+        <a href="/indeks-telesne-mase">BMI</a>
       </li>
       <li className="hover:underline">
         <a href="/konverter-mernih-jedinica-za-masu">Masa</a>

@@ -22,19 +22,17 @@ function HomeText() {
         </div>
         <div className="px-5 w-full md:w-8/12">
           <div>
-            <p>
-              Dobrodošli na <b>Kalkulatori.online</b>, vaš glavni izvor za
-              praktične i jednostavne kalkulatore za svakodnevne potrebe. Bez
-              obzira da li upravljate svojim ličnim finansijama, pratite
-              zdravstvene ciljeve ili samo ubrzavate svakodnevne poslove, nudimo
-              spektar alata za pojednostavljenje vašeg života. Od aplikacija za
-              računanje <b>procenata</b>, pretvaranja jedinica za <b>masu</b> i{" "}
-              <b>dužinu</b> do praćenje zdravlja i fitnesa kao što su <b>BMI</b>{" "}
-              i brojača kalorija. Naši kalkulatori su dizajnirani da pruže brze
-              i tačne rezultate uz minimalan napor. Dostupno u bilo koje vreme i
-              potpuno besplatno, svaki naš kalkulator je tu da vam pomogne da
-              uštedite vreme. Počnite da istražujete danas i otkrijte koliko
-              život može biti jednostavan sa pravim alatima na dohvat ruke!
+            <h2 className="text-2xl py-2 font-bold md:mt-10">
+              Svaki naš online kalkulator je besplatan i jednostavan za
+              upotrebu.
+            </h2>
+            <p className="py-2">
+              Da li vas zanima koliki je procenat od broja? Koja je normalna
+              težina na visinu? Koliko je col centimetara ili koliko je
+              kilograma u jednoj toni? Naši online kalkulatori će vam pomoći pri
+              svakodnevnom računanju. Neke operacije, iako su jednostavne,
+              zahtevaju vreme i pažnju. Svaki naš <b>online kalkulator</b> je
+              dizajniran za jednostavnu upotrebu i prilagođen svim uređajima.
             </p>
           </div>
         </div>
@@ -57,11 +55,20 @@ function HomeText() {
         </div>
         <div className="px-5 w-full md:w-8/12">
           <div>
-            <p>
-              Bez obzira da li vas zanima koliki je procenat od broja, koja je
-              normalna težina na visinu, koliko je col centimetara ili koliko je
-              kilograma u jednoj toni, naši kalkulatori će vam pomoći pri
-              svakodnevnom računanju.
+            <h2 className="text-2xl py-2 font-bold md:mt-10">
+              Kalulatori koji štede vreme.
+            </h2>
+            <p className="py-2">
+              Bez obzira da li upravljate svojim ličnim finansijama, pratite
+              zdravstvene ciljeve ili samo ubrzavate svakodnevne poslove, nudimo
+              spektar alata za pojednostavljenje vašeg života. Od aplikacija za
+              računanje <b>procenata</b>, pretvaranja jedinica za <b>masu</b> i{" "}
+              <b>dužinu</b> do praćenje zdravlja i fitnesa kao što su <b>BMI</b>{" "}
+              i brojača kalorija. Naši kalkulatori su dizajnirani da pruže brze
+              i tačne rezultate uz minimalan napor. Dostupno u bilo koje vreme i
+              potpuno besplatno, svaki naš kalkulator je tu da vam pomogne da
+              uštedite vreme. Počnite da istražujete danas i otkrijte koliko
+              život može biti jednostavan sa pravim alatima na dohvat ruke!
             </p>
           </div>
         </div>
