@@ -69,6 +69,14 @@ function KmjDuzinaText() {
           upravo imperijalne veličine. Ovaj kalkulator će vam olakšati
           pretvaranje dimenzija za vaš hobi.
         </p>
+        <h3 className="text-xl font-bold">Nautički kalkulator</h3>
+        <p className="py-2">
+          U nautici se udaljenost meri u nautičkim miljama (NM). Brzo
+          konvertujte nautičke milje u kilometre uz pomoć online kalkulatora.
+          Iako svaki iskusan moreplovac zna da je jedna nautička milja 1852 m
+          odnosno 1.852 km, početnicima u nautici ovaj kalkulator može da
+          pomogne na svom putu do morskog vuka. 🙂
+        </p>
       </section>
     </div>
   );

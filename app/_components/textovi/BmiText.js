@@ -33,6 +33,16 @@ function BmiText() {
           razlikuju se i kriterijumi. Neke od kriterijuma možete videti u
           tabelama ispod:
         </p>
+        <div className="w-full flex place-content-center">
+          <Image
+            src="/bmi-indeks-telesne-mase.jpg"
+            height="500"
+            width="389"
+            quality={80}
+            className="object-cover"
+            alt="bmi-indeks-telesne-mase"
+          />
+        </div>
         <p className="py-2">
           Podaci su zasnovani na izveštajima međunarodnih organizacija.
           Interpretacija ne mora nužno biti stoprocentno tačna. Izvor podataka
@@ -45,6 +55,7 @@ function BmiText() {
           </Link>
           SZO obezbeđuje globalni standard za BMI klasifikaciju.
         </p>
+
         <TabelaOdrasli />
         <TabelaDevojcice />
         <TabelaDecaci />

@@ -15,7 +15,7 @@ function Menu({ style }) {
         <a href="/konverter-mernih-jedinica-za-masu">Masa</a>
       </li>
       <li className="hover:underline">
-        <a href="/konverter-mernih-jedinica-za-duzinu">Duzina</a>
+        <a href="/konverter-mernih-jedinica-za-duzinu">Dužina</a>
       </li>
       {/* <li className="hover:underline">Kontakt</li> */}
     </ul>

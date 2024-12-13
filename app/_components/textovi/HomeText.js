@@ -23,7 +23,7 @@ function HomeText() {
         <div className="px-5 w-full md:w-8/12">
           <div>
             <p>
-              Dobrodošli u <b>Kalkulatori.online</b>, vaš glavni izvor za
+              Dobrodošli na <b>Kalkulatori.online</b>, vaš glavni izvor za
               praktične i jednostavne kalkulatore za svakodnevne potrebe. Bez
               obzira da li upravljate svojim ličnim finansijama, pratite
               zdravstvene ciljeve ili samo ubrzavate svakodnevne poslove, nudimo
@@ -31,11 +31,10 @@ function HomeText() {
               računanje <b>procenata</b>, pretvaranja jedinica za <b>masu</b> i{" "}
               <b>dužinu</b> do praćenje zdravlja i fitnesa kao što su <b>BMI</b>{" "}
               i brojača kalorija. Naši kalkulatori su dizajnirani da pruže brze
-              i tačne rezultate* uz minimalan napor. Dostupno u bilo koje vreme
-              i potpuno besplatno,
-              <b>Kalkulatori.online</b> je tu da vam pomogne da uštedite vreme.
-              Počnite da istražujete danas i otkrijte koliko život može biti
-              jednostavan sa pravim alatima na dohvat ruke!
+              i tačne rezultate uz minimalan napor. Dostupno u bilo koje vreme i
+              potpuno besplatno, svaki naš kalkulator je tu da vam pomogne da
+              uštedite vreme. Počnite da istražujete danas i otkrijte koliko
+              život može biti jednostavan sa pravim alatima na dohvat ruke!
             </p>
           </div>
         </div>

@@ -29,7 +29,7 @@ function Header() {
             viewBox="0 0 24 24"
             strokeWidth={2}
             stroke="currentColor"
-            className="w-6 h-6"
+            className="w-8 h-8"
           >
             <path
               strokeLinecap="round"
@@ -57,47 +57,5 @@ function Header() {
     </header>
   );
 }
-
-// function Header() {
-//   return (
-//     <header className="w-full bg-gray-800 text-white">
-//       <div className="max-w-screen- mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-//         {/* Logo */}
-//         <div className="flex items-center">
-//           <Logo />
-//         </div>
-
-//         {/* Menu */}
-//         <nav className="hidden md:flex space-x-4">
-//           <Menu />
-//         </nav>
-
-//         {/* Mobile Menu Button */}
-//         <div className="md:hidden">
-//           <button
-//             className="text-white hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50"
-//             aria-label="Open menu"
-//           >
-//             {/* Mobile menu icon */}
-//             <svg
-//               className="w-6 h-6"
-//               fill="none"
-//               stroke="currentColor"
-//               viewBox="0 0 24 24"
-//               xmlns="http://www.w3.org/2000/svg"
-//             >
-//               <path
-//                 strokeLinecap="round"
-//                 strokeLinejoin="round"
-//                 strokeWidth={2}
-//                 d="M4 6h16M4 12h16m-7 6h7"
-//               />
-//             </svg>
-//           </button>
-//         </div>
-//       </div>
-//     </header>
-//   );
-// }
 
 export default Header;
