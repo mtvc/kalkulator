@@ -1,10 +1,10 @@
 function Menu({ style }) {
   return (
     <ul className={`${style}`}>
-      <li className="hover:underline">
+      {/* <li className="hover:underline">
         {" "}
         <a href="/konverter-mernih-jedinica">Merne jedinice</a>
-      </li>
+      </li> */}
       <li className="hover:underline">
         <a href="/procenti">Procenti</a>
       </li>
@@ -17,7 +17,7 @@ function Menu({ style }) {
       <li className="hover:underline">
         <a href="/konverter-mernih-jedinica-za-duzinu">Duzina</a>
       </li>
-      <li className="hover:underline">Kontakt</li>
+      {/* <li className="hover:underline">Kontakt</li> */}
     </ul>
   );
 }

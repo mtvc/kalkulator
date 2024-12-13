@@ -1,105 +1,17 @@
+import Image from "next/image";
+import Link from "next/link";
+
 function KmjDuzinaText() {
   return (
     <div className="px-5 py-14 flex-col w-full md:w-9/12">
       <section className="space-y-4">
-        <p>
+        <p className="py-2">
           <b>Kalkulator (konverter) mernih jedinica za dužinu</b> služi za
           pretvaranje nekih od mernih jedinica za dužinu u međunarodnom sistemu
           jedinica.
         </p>
-        <h2 className="text-2xl">
-          <b>Kalkulatorom mogu biti konvertovani:</b>
-        </h2>
-        {/* <div className="space-y-4 gap-4 my-5 sm:grid sm:grid-rows-4 sm:space-y-0 md:grid md:grid-rows-4 md:space-y-0 lg:grid lg:grid-rows-3 lg:space-y-0 grid-flow-col ">
-          <div>
-            <ul>
-              <li>- milimetri (mm) u centimetre (cm)</li>
-              <li>- milimetri (mm) u metre (m)</li>
-              <li>- milimetri (mm) u inče (inch)</li>
-              <li>- milimetri (mm) u cole (zoll)</li>
-              <li>- milimetri (mm) u stope (feet)</li>
-              <li>- milimetri (mm) u jarde (yard)</li>
-              <li>- milimetri (mm) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- centimetri (cm) u milimetre (mm)</li>
-              <li>- centimetri (cm) u metre (m)</li>
-              <li>- centimetri (cm) u inče (inch)</li>
-              <li>- centimetri (cm) u cole (zoll)</li>
-              <li>- centimetri (cm) u stope (feet)</li>
-              <li>- centimetri (cm) u jarde (yard)</li>
-              <li>- centimetri (cm) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- metri (m) u milimetre (mm)</li>
-              <li>- metri (m) u centimetre (cm)</li>
-              <li>- metri (m) u inče (inch)</li>
-              <li>- metri (m) u cole (zoll)</li>
-              <li>- metri (m) u stope (feet)</li>
-              <li>- metri (m) u jarde (yard)</li>
-              <li>- metri (m) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- inči (inch) u milimetre (mm)</li>
-              <li>- inči (inch) u centimetre (cm)</li>
-              <li>- inči (inch) u metre (m)</li>
-              <li>- inči (inch) u cole (zoll)</li>
-              <li>- inči (inch) u stope (feet)</li>
-              <li>- inči (inch) u jarde (yard)</li>
-              <li>- inči (inch) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- coli (zoll) u milimetre (mm)</li>
-              <li>- coli (zoll) u centimetre (cm)</li>
-              <li>- coli (zoll) u metre (m)</li>
-              <li>- coli (zoll) u inče (inch)</li>
-              <li>- coli (zoll) u stope (feet)</li>
-              <li>- coli (zoll) u jarde (yard)</li>
-              <li>- coli (zoll) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- stope (feet) u milimetre (mm)</li>
-              <li>- stope (feet) u centimetre (cm)</li>
-              <li>- stope (feet) u metre (m)</li>
-              <li>- stope (feet) u inče (inch)</li>
-              <li>- stope (feet) u cole (zoll)</li>
-              <li>- stope (feet) u jarde (yard)</li>
-              <li>- stope (feet) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- jardi (yard) u milimetre (mm)</li>
-              <li>- jardi (yard) u centimetre (cm)</li>
-              <li>- jardi (yard) u metre (m)</li>
-              <li>- jardi (yard) u inče (inch)</li>
-              <li>- jardi (yard) u stope (feet)</li>
-              <li>- jardi (yard) u jarde (yard)</li>
-              <li>- jardi (yard) u milje (mile)</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>- milje (mile) u milimetre (mm)</li>
-              <li>- milje (mile) u centimetre (cm)</li>
-              <li>- milje (mile) u metre (m)</li>
-              <li>- milje (mile) u inče (inch)</li>
-              <li>- milje (mile) u cole (zoll)</li>
-              <li>- milje (mile) u stope (feet)</li>
-              <li>- milje (mile) u jarde (yard)</li>
-            </ul>
-          </div>
-        </div> */}
+        <h2 className="text-2xl font-bold">Kalkulator obuhvata:</h2>
+
         <div className="flex flex-row ">
           <div className="w-6/12">
             <h3 className="text-xl font-bold py-4">Metričke veličine:</h3>
@@ -122,10 +34,40 @@ function KmjDuzinaText() {
             </ol>
           </div>
         </div>
-        <p>
-          Druga metoda utvrđivanja <b>procenta</b> je da se broj od kog želimo
-          da dobijemo određeni <b>procenat</b> množi sa brojem traženog procenta
-          podeljenog sa 100. Na primer 10% je 0,1 (10 / 100 = 0,1).
+        <div className="w-full flex place-content-center">
+          <Image
+            src="/konverter-metrickih--imperijalnih-duzina.jpg"
+            height="500"
+            width="353"
+            quality={80}
+            className="object-cover"
+            alt="kalkulator duzina - metričke i imperijalne"
+          />
+        </div>
+        <div className="text-xs text-slate-300">
+          <Link href="https://www.vecteezy.com/free-vector/length">
+            Length Vectors by Vecteezy
+          </Link>
+        </div>
+        <h2 className="text-2xl font-bold">
+          Neki od primera konverzije dužina:
+        </h2>
+        <h3 className="text-xl font-bold">Vodovodne instalacije</h3>
+        <p className="py-2">
+          Dimenzije vodovodnih cevi se izražene u colima (zoll). Tako postoje
+          col, 1/4 cola, 1/2 cola, 1 i 1/4 i tako dalja. Ako cev treba da prođe
+          kroz određenu rupu koju treba da izbušite, naj verovatnije će te to
+          uraditi alatom čije dimenzije su predstavljene u milimetrima (mm).
+          Ovaj kalkulator će vam sigurno olakšati posao.
+        </p>
+        <h3 className="text-xl font-bold">Stolarski kalkulator</h3>
+        <p className="py-2">
+          Naj češće upotrebljavana dimenzija daske u Americi je 2 inča x 4 inča
+          (2 inch by 4 inch), kad se prevede u centimetre to odprilike odgovara
+          dimenzijama štafle (5.08cm x 10.16 cm). Mnogi tutorijali na engleskom
+          jeziku koji objašnjavaju hobi stolarima kako da naprave nešto, koriste
+          upravo imperijalne veličine. Ovaj kalkulator će vam olakšati
+          pretvaranje dimenzija za vaš hobi.
         </p>
       </section>
     </div>

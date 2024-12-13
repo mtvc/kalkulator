@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 function HomeText() {
   return (
@@ -13,6 +14,11 @@ function HomeText() {
             className="object-cover"
             alt="kalkulator online kalkulator procenata, zarada, kalorija"
           />
+          <div className="text-xs text-slate-300 px-4 mb-2">
+            <Link href="https://www.vecteezy.com/free-vector/calculator">
+              Calculator Vectors by Vecteezy
+            </Link>
+          </div>
         </div>
         <div className="px-5 w-full md:w-8/12">
           <div>
@@ -44,6 +50,11 @@ function HomeText() {
             className="object-cover"
             alt="kalkulator online kalkulator procenata, zarada, kalorija"
           />
+          <div className="text-xs text-slate-300 px-4 mb-2">
+            <Link href="https://www.vecteezy.com/free-vector/calculator">
+              Calculator Vectors by Vecteezy
+            </Link>
+          </div>
         </div>
         <div className="px-5 w-full md:w-8/12">
           <div>
