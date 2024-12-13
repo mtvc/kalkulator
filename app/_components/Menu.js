@@ -1,10 +1,25 @@
+const menuItems = [
+  {
+    title: "procenti",
+    url: "/Procenti",
+  },
+  {
+    title: "BMI",
+    url: "/indeks-telesne-mase",
+  },
+  {
+    title: "Masa",
+    url: "/konverter-mernih-jedinica-za-masu",
+  },
+  {
+    title: "Dužina",
+    url: "/konverter-mernih-jedinica-za-duzinu",
+  },
+];
+
 function Menu({ style }) {
   return (
     <ul className={`${style}`}>
-      {/* <li className="hover:underline">
-        {" "}
-        <a href="/konverter-mernih-jedinica">Merne jedinice</a>
-      </li> */}
       <li className="hover:underline">
         <a href="/procenti">Procenti</a>
       </li>
@@ -17,7 +32,6 @@ function Menu({ style }) {
       <li className="hover:underline">
         <a href="/konverter-mernih-jedinica-za-duzinu">Dužina</a>
       </li>
-      {/* <li className="hover:underline">Kontakt</li> */}
     </ul>
   );
 }

@@ -139,7 +139,7 @@ export default function KmjDuzina() {
               <select
                 value={input2}
                 onChange={(e) => setInput2(e.target.value)}
-                className="max-w-30 px-2 py-2 border-4 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="w-full px-2 py-2 border-4 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               >
                 {opcije.map((opcija) => (
                   <option key={opcija.id} value={opcija.id}>
@@ -166,7 +166,7 @@ export default function KmjDuzina() {
               <select
                 value={input3}
                 onChange={(e) => setInput3(e.target.value)}
-                className="w-30 px-2 py-2 border-4 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+                className="w-full px-2 py-2 border-4 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
               >
                 {opcije.map((opcija) => (
                   <option key={opcija.id} value={opcija.id}>

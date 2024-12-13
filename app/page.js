@@ -1,6 +1,6 @@
 import AllCalc from "./_components/AllCalc";
 import HomeText from "./_components/textovi/HomeText";
-//
+
 export const metadata = {
   title: {
     default: "Kalkulatori onlajn - kalkulatori za svakodnevnu upotrebu",
