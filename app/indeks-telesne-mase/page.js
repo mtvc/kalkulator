@@ -1,7 +1,6 @@
 import Bmi from "../_components/kalkulatori/Bmi";
 import Sidebar from "../_components/Sidebar";
 import BmiText from "../_components/textovi/BmiText";
-export const runtime = "edge";
 
 function page() {
   return (

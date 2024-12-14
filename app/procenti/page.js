@@ -1,7 +1,6 @@
 import Procenti from "../_components/kalkulatori/Procenti";
 import Sidebar from "../_components/Sidebar";
 import ProcentiText from "../_components/textovi/ProcentiText";
-export const runtime = "edge";
 
 export const metadata = {
   title: {

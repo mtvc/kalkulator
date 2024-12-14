@@ -1,6 +1,5 @@
 import AllCalc from "./_components/AllCalc";
 import HomeText from "./_components/textovi/HomeText";
-export const runtime = "edge";
 
 export const metadata = {
   title: {

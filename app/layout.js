@@ -4,6 +4,8 @@ import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
+export const runtime = "edge";
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
