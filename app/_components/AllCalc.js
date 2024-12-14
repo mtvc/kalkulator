@@ -44,7 +44,6 @@ function AllCalc() {
       if (element.id === slug) {
         element.remove();
       }
-      console.log(element.id, slug);
     });
   }, [pathname]);
 

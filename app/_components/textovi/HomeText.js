@@ -8,8 +8,8 @@ function HomeText() {
         <div className="w-full md:w-4/12">
           <Image
             src="/kalkulator-online-kalkulator-procenata-zarada-kalorija-bmi.png"
-            height="500"
-            width="417"
+            height="417"
+            width="500"
             quality={80}
             className="object-cover"
             alt="kalkulator online kalkulator procenata, zarada, kalorija"
@@ -41,8 +41,8 @@ function HomeText() {
         <div className="w-full md:w-4/12">
           <Image
             src="/kalkulator-online-kalkulator-procenata-zarada-kalorija.png"
-            height="500"
-            width="417"
+            height="417"
+            width="500"
             quality={80}
             className="object-cover"
             alt="kalkulator online kalkulator procenata, zarada, kalorija"

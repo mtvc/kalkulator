@@ -37,8 +37,8 @@ function KmjDuzinaText() {
         <div className="w-full flex place-content-center">
           <Image
             src="/konverter-metrickih--imperijalnih-duzina.jpg"
-            height="500"
-            width="353"
+            height="353"
+            width="500"
             quality={80}
             className="object-cover"
             alt="kalkulator duzina - metričke i imperijalne"

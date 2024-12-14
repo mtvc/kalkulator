@@ -41,8 +41,8 @@ function KmjMasaText() {
         <div className="w-full flex place-content-center">
           <Image
             src="/konverter-jedinica-mase.jpg"
-            height="500"
-            width="336"
+            height="336"
+            width="500"
             quality={80}
             className="object-cover"
             alt="konverter-jedinica-mase"

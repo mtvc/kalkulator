@@ -16,20 +16,20 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "%s - Kalkulator onlajn",
-  description:
-    "Online kalkulator - procenti, zarade, porez, registracija, centimetri u inče",
+  description: "Online kalkulatori - procenti, dužine, bmi, mase...",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="sr">
       <body>
         <Header />
-        <div className="py-12 grid">
-          <main className="max-w-7xl mx-auto flex flex-col w-full">
-            {children}
-          </main>
-        </div>
+        <main
+          id="root"
+          className="max-w-7xl mx-auto flex flex-col w-full py-12"
+        >
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

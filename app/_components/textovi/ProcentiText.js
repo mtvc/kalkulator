@@ -23,8 +23,8 @@ function ProcentiText() {
         <div className="w-full flex place-content-center">
           <Image
             src="/kalkulator-procenat-pita-grafikon.jpg"
-            height="500"
-            width="421"
+            height="421"
+            width="500"
             quality={80}
             className="object-cover"
             alt="kalkulator procenta pita grafikon"
