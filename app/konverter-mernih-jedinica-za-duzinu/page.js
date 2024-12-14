@@ -1,6 +1,7 @@
 import KmjDuzina from "../_components/kalkulatori/KmjDuzina";
 import Sidebar from "../_components/Sidebar";
 import KmjDuzinaText from "../_components/textovi/KmjDuzinaText";
+export const runtime = "edge";
 
 export const metadata = {
   title: {

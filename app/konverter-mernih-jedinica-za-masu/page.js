@@ -1,6 +1,7 @@
 import KmjMasa from "../_components/kalkulatori/KmjMasa";
 import Sidebar from "../_components/Sidebar";
 import KmjMasaText from "../_components/textovi/KmjMasaText";
+export const runtime = "edge";
 
 export const metadata = {
   title: {
