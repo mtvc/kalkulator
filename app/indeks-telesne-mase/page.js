@@ -2,6 +2,14 @@ import Bmi from "../_components/kalkulatori/Bmi";
 import Sidebar from "../_components/Sidebar";
 import BmiText from "../_components/textovi/BmiText";
 
+export const metadata = {
+  title: {
+    default: "Kalkulator indeksa telesne mase - BMI",
+  },
+  description:
+    "Kalkulator indeksa telesne mase (BMI) sa klasifikacijom SZO. Odrasli i deca.",
+};
+
 function page() {
   return (
     <div className="py-14">
