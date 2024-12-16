@@ -1,8 +1,8 @@
 export const metadata = {
   title: {
     default: "Uslovi korišćenja",
+    description: "Uslovi korišćenja za kalkulatori.online",
   },
-  description: "Uslovi korišćenja za kalkulatori.online",
 };
 
 function terms() {

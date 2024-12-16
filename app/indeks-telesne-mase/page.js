@@ -5,9 +5,9 @@ import BmiText from "../_components/textovi/BmiText";
 export const metadata = {
   title: {
     default: "Kalkulator indeksa telesne mase - BMI",
+    description:
+      "Kalkulator indeksa telesne mase (BMI) sa klasifikacijom SZO. Namenjen deci i odraslima.",
   },
-  description:
-    "Kalkulator indeksa telesne mase (BMI) sa klasifikacijom SZO. Odrasli i deca.",
 };
 
 function page() {

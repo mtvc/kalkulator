@@ -1,8 +1,8 @@
 export const metadata = {
   title: {
-    default: "Kontakt podaci - kalkulatori.online",
+    default: "Kontakt podaci",
+    description: "Slobodno nas možete kontaktirati.",
   },
-  description: "Slobodno nas možete kontaktirati.",
 };
 
 function page() {

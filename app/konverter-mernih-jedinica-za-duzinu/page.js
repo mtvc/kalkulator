@@ -6,9 +6,9 @@ export const metadata = {
   title: {
     default:
       "Konverter jedinica za dužinu - col (zoll), kilogram (kg), funta(oz)...",
+    description:
+      "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
   },
-  description:
-    "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
 };
 
 function page() {
