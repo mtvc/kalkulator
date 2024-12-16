@@ -52,6 +52,14 @@ function KmjDuzinaText() {
         <h2 className="text-2xl font-bold">
           Neki od primera konverzije dužina:
         </h2>
+        <h3 className="text-xl font-bold">Ekrani tehničkih uređaja</h3>
+        <p className="py-2">
+          Tehničku uređaji kao što su mobilni telefoni, tableti, laptop
+          računari, monitori računara ili pametni satovi, u svojim
+          dokumentacijama prikazuju dimenzije ekrana u inčima (na primer: 5.6").
+          Zanima vas koliko je to u centimetrima? Lako konvertujte uz pomoć
+          online kalkulatora za dužine.
+        </p>
         <h3 className="text-xl font-bold">Vodovodne instalacije</h3>
         <p className="py-2">
           Dimenzije vodovodnih cevi se izražene u colima (zoll). Tako postoje
