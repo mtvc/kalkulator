@@ -18,24 +18,29 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "%s - Kalkulator onlajn",
+  title: {
+    default: "Online kalkulatori",
+    template: "%s - Online kalkulatori",
+  },
   description: "Online kalkulatori - procenti, dužine, bmi, mase...",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="sr">
-      <body>
-        <Header />
-        <main
-          id="root"
-          className="max-w-7xl mx-auto flex flex-col w-full py-12"
-        >
-          {children}
-        </main>
-        <Footer />
-        <GoogleAnalytics gaId="G-P91MD20D22" />
-      </body>
-    </html>
+    <>
+      <html lang="sr">
+        <body>
+          <Header />
+          <main
+            id="root"
+            className="max-w-7xl mx-auto flex flex-col w-full py-12"
+          >
+            {children}
+          </main>
+          <Footer />
+          {/* <GoogleAnalytics gaId="G-P91MD20D22" /> */}
+        </body>
+      </html>
+    </>
   );
 }

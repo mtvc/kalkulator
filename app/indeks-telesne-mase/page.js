@@ -13,7 +13,7 @@ export const metadata = {
 function page() {
   return (
     <div className="py-14">
-      <h1 className="px-5 text-3xl font-semibold text-gray-700 mb-4 text-center">
+      <h1 className="px-5 text-3xl font-bold text-gray-700 mb-4 text-center">
         Kalkulator indeksa telesne mase - Body Mass Index (BMI)
       </h1>
       <Bmi />

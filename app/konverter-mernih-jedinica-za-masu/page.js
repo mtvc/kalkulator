@@ -5,7 +5,7 @@ import KmjMasaText from "../_components/textovi/KmjMasaText";
 export const metadata = {
   title: {
     default:
-      "Konverter jedinica za masu - kilogram (kg), funta(oz), col (zoll)...",
+      "Konverter jedinica za masu - kilogram (kg), funta(oz), metrička tona (mt)...",
     description:
       "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
   },

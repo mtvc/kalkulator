@@ -1,24 +1,25 @@
-import AllCalc from "./_components/AllCalc";
+import HeroArea from "./_components/HeroArea";
 import HomeText from "./_components/textovi/HomeText";
 
 export const metadata = {
   title: {
-    default: "Kalkulatori onlajn - kalkulatori za svakodnevnu upotrebu",
+    default: "Online kalkulatori - Besplatni online alati za računanje",
   },
   description:
-    "Online kalkulatori namenjeni da vam uštede vreme. Procenti, konverzije mase, konverzije dužine, Računanje indeksa telesne mase...",
+    "Kalkulatori i konverteri za finansije, sport, matematiku, fiziku...",
 };
 
 export default function Home() {
   return (
     <div className="py-12 max-w-full">
-      <h1 className="text-3xl font-bold text-gray-700 mb-4 text-center">
-        Kalkulatori online
+      <h1 className="text-3xl font-extrabold uppercase text-gray-700 mb-4 text-center">
+        Online alati za računanje.
       </h1>
-      <div className="w-full py-5 bg-gray-200 rounded">
-        <AllCalc />
+
+      <div className="w-full py-5 rounded">
+        <HeroArea />
+        <HomeText />
       </div>
-      <HomeText />
     </div>
   );
 }

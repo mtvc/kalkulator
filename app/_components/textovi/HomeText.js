@@ -4,7 +4,7 @@ import Link from "next/link";
 function HomeText() {
   return (
     <section>
-      <div className="md:py-5 flex-col md:flex md:flex-row align-middle">
+      <div className="py-5 flex-col md:flex md:flex-row align-middle">
         <div className="w-full md:w-4/12">
           <Image
             src="/kalkulator-online-kalkulator-procenata-zarada-kalorija-bmi.png"
@@ -23,21 +23,75 @@ function HomeText() {
         <div className="px-5 w-full md:w-8/12">
           <div>
             <h2 className="text-2xl py-2 font-bold md:mt-10">
-              Svaki naš online kalkulator je besplatan i jednostavan za
-              upotrebu.
+              Aplikacije koje pospešuju produktivnost.
             </h2>
-            <p className="py-2">
-              Da li vas zanima koliki je procenat od broja? Koja je normalna
-              težina na visinu? Koliko je col centimetara ili koliko je
-              kilograma u jednoj toni? Naši online kalkulatori će vam pomoći pri
-              svakodnevnom računanju. Neke operacije, iako su jednostavne,
-              zahtevaju vreme i pažnju. Svaki naš <b>online kalkulator</b> je
-              dizajniran za jednostavnu upotrebu i prilagođen svim uređajima.
-            </p>
+            <div className="py-2">
+              <ol className="list">
+                <li className="flex flex-row py-2 gap-3 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="size-8 bg-green-300 rounded-full"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+                    />
+                  </svg>
+                  <h3 className="text-xl font-semibold ">
+                    Pojednostavljuje procese
+                  </h3>
+                </li>
+                <li className="flex flex-row py-2 gap-3 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="size-8 bg-green-300 rounded-full"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+                    />
+                  </svg>
+                  <h3 className="text-xl font-semibold ">Ubrzava zadatke</h3>
+                </li>
+                <li className="flex flex-row py-2 gap-3 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    className="size-8 bg-green-300 rounded-full"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+                    />
+                  </svg>
+                  <h3 className="text-xl font-semibold ">Štedi vreme</h3>
+                </li>
+              </ol>
+              {/* Kalkulatori i konverteri su ključan alat za pojedince koji žele da
+              efikasnije upravljaju svojim vremenom i novcem. Naše aplikacije
+              omogućavaju optimizaciju svakodnevnog rada. Platforma omogućava
+              lakše upravljanje svakodnevnim obavezama. Svaki <b>kalkulator</b>{" "}
+              i <b>konverter</b>, eliminiše nepotrebno gubljenje vremena i
+              pomaže pri fokusiranju na ključne ciljeve. */}
+            </div>
           </div>
         </div>
       </div>
-      <div className="md:py-5 flex-col md:flex md:flex-row-reverse">
+      <div className=" flex-col md:flex md:flex-row-reverse">
         <div className="w-full md:w-4/12">
           <Image
             src="/kalkulator-online-kalkulator-procenata-zarada-kalorija.png"
@@ -56,19 +110,18 @@ function HomeText() {
         <div className="px-5 w-full md:w-8/12">
           <div>
             <h2 className="text-2xl py-2 font-bold md:mt-10">
-              Kalulatori koji štede vreme.
+              Kalkulatori i konverteri za matematiku, fiziku, finansije,
+              sport...
             </h2>
             <p className="py-2">
-              Bez obzira da li upravljate svojim ličnim finansijama, pratite
-              zdravstvene ciljeve ili samo ubrzavate svakodnevne poslove, nudimo
-              spektar alata za pojednostavljenje vašeg života. Od aplikacija za
-              računanje <b>procenata</b>, pretvaranja jedinica za <b>masu</b> i{" "}
-              <b>dužinu</b> do praćenje zdravlja i fitnesa kao što su <b>BMI</b>{" "}
-              i brojača kalorija. Naši kalkulatori su dizajnirani da pruže brze
-              i tačne rezultate uz minimalan napor. Dostupno u bilo koje vreme i
-              potpuno besplatno, svaki naš kalkulator je tu da vam pomogne da
-              uštedite vreme. Počnite da istražujete danas i otkrijte koliko
-              život može biti jednostavan sa pravim alatima na dohvat ruke!
+              Aplikacija za računanje <b>procenata</b>, pretvaranja jedinica za{" "}
+              <b>masu</b> i <b>dužinu</b>, pomoći oko kalkulisanja <b>poreza</b>
+              , do praćenje zdravlja i fitnesa kao što su <b>BMI</b> i brojača
+              kalorija. Naši kalkulatori su dizajnirani da pruže brze i tačne
+              rezultate uz minimalan napor. Dostupno u bilo koje vreme i potpuno
+              besplatno, svaki naš kalkulator je tu da vam pomogne da uštedite
+              vreme. Počnite da istražujete danas i otkrijte koliko život može
+              biti jednostavan sa pravim alatima na dohvat ruke!
             </p>
           </div>
         </div>

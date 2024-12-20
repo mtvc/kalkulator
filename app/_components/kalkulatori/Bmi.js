@@ -127,7 +127,7 @@ export default function Bmi() {
                     htmlFor="input1"
                     className="block text-2xl font-bold text-slate-50"
                   >
-                    Koliko godina imate?
+                    Godine:
                   </label>
                   <input
                     type="text"
@@ -154,7 +154,7 @@ export default function Bmi() {
                         checked={selectedGender === "woman"}
                         onChange={handleChange}
                       />
-                      žena
+                      žensko
                     </label>
                     <label className="flex items-center text-xl font-bold text-slate-50 text-opacity-80">
                       <input
@@ -165,7 +165,7 @@ export default function Bmi() {
                         checked={selectedGender === "man"}
                         onChange={handleChange}
                       />
-                      muškarac
+                      muško
                     </label>
                   </div>
                 </div>

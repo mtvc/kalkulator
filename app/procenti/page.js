@@ -4,9 +4,10 @@ import ProcentiText from "../_components/textovi/ProcentiText";
 
 export const metadata = {
   title: {
-    default: "Kalkulator procenta online",
+    default: "Kalkulator procenta (postotka)",
   },
-  description: "Kalkulator za jednostavno izračunavanje procenata (postotka)",
+  description:
+    "Online kalkulator za jednostavno izračunavanje procenata % (postotaka)",
 };
 
 function page() {

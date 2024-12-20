@@ -8,6 +8,15 @@ function Footer() {
           <ul>
             <li>
               -{" "}
+              <Link
+                className="hover:underline"
+                href="/kalkulator-poreza-za-frilensere"
+              >
+                Porez za frilensere
+              </Link>
+            </li>
+            <li>
+              -{" "}
               <Link className="hover:underline" href="/procenti">
                 Odredi procenat
               </Link>

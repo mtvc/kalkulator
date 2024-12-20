@@ -21,6 +21,9 @@ function Menu({ style }) {
   return (
     <ul className={`${style}`}>
       <li className="hover:underline">
+        <a href="/kalkulator-poreza-za-frilensere">Porez za frilensere</a>
+      </li>
+      <li className="hover:underline">
         <a href="/procenti">Procenti</a>
       </li>
       <li className="hover:underline">
