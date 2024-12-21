@@ -5,9 +5,12 @@ function ProcentiText() {
   return (
     <div className="px-5 py-14 flex-col w-full md:w-9/12">
       <section>
+        <h2 className="text-2xl font-bold py-2">
+          Formula za izracunavanje procenta
+        </h2>
         <p className="py-2">
-          <b>Kalkulator procenta (postotka)</b> izračunava procenat, odnosno,
-          broj stotih delova nekog broja.
+          <b>Procentni kalkulator</b> izračunava procenat, odnosno, broj stotih
+          delova nekog broja.
         </p>
         <p className="py-2">
           <b>Kalkulator</b> izračunava <b>procenat</b> tako što zadati broj deli
@@ -52,7 +55,9 @@ function ProcentiText() {
           dinara
         </p>
         <p className="py-2">Vaša penzija je manja za 250 dinara</p>
-        <h3 className="pt-6 text-xl font-bold">Akcija</h3>
+        <h3 className="pt-6 text-xl font-bold">
+          Kako se racuna procenat sniženja?
+        </h3>
         <p className="py-2">
           Ako je redovna cena nekog proizvoda u prodavnici 11265.99 dinara a u
           akcijskom letku piše da je sniženje do 25%, minimalna cena tog
