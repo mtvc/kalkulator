@@ -1,8 +1,6 @@
 export const metadata = {
-  title: {
-    default: "Kontakt podaci",
-    description: "Slobodno nas možete kontaktirati.",
-  },
+  title: "Kontakt podaci",
+  description: "Slobodno nas možete kontaktirati.",
 };
 
 function page() {

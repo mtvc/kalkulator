@@ -10,7 +10,7 @@ function ProcentiText() {
         </h2>
         <p className="py-2">
           <b>Procentni kalkulator</b> izračunava procenat, odnosno, broj stotih
-          delova nekog broja.
+          delova nekog broja (postotak).
         </p>
         <p className="py-2">
           <b>Kalkulator</b> izračunava <b>procenat</b> tako što zadati broj deli
@@ -18,7 +18,7 @@ function ProcentiText() {
           procenata množi sa tim brojem.
         </p>
         <p className="py-2">
-          Procenat (postotak) je jedna od osnovnih i naj češće korišćenih
+          Procenat (postotak) je jedna od osnovnih i najčešće korišćenih
           matematičkih operacija. Koristi se svakodnevno u različitim
           situacijam. Neke od primera iz svakodnevnog života ćemo predstaviti
           ovde.

@@ -3,12 +3,10 @@ import Sidebar from "../_components/Sidebar";
 import KmjDuzinaText from "../_components/textovi/KmjDuzinaText";
 
 export const metadata = {
-  title: {
-    default:
-      "Konverter jedinica za dužinu - col (zoll), kilogram (kg), funta(oz)...",
-    description:
-      "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
-  },
+  title:
+    "Konverter jedinica za dužinu - col (zoll), kilogram (kg), funta(oz)...",
+  description:
+    "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
 };
 
 function page() {

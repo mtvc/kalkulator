@@ -3,12 +3,10 @@ import Sidebar from "../_components/Sidebar";
 import KmjMasaText from "../_components/textovi/KmjMasaText";
 
 export const metadata = {
-  title: {
-    default:
-      "Pretvaranje jedinica za masu - kilogram (kg), funta(oz), metrička tona (mt)...",
-    description:
-      "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
-  },
+  title:
+    "Pretvaranje jedinica za masu - kilogram (kg), funta(oz), metrička tona (mt)...",
+  description:
+    "Kalkulator (konverter) za pretvaranje jedinica mase. Metrički i imperijalni sistem jedinica.",
 };
 
 function page() {

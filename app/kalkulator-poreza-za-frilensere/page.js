@@ -3,11 +3,9 @@ import Sidebar from "../_components/Sidebar";
 import FrilenseriText from "../_components/textovi/FrilenseriText";
 
 export const metadata = {
-  title: {
-    default: "Kalkulator poreza za frilensere",
-    description:
-      "Ovaj kalkulator je namenjen onima koji ostvaruju prihode kao slobodni umetnici, frilenseri, instruktori stranih jezika...",
-  },
+  title: "Kalkulator poreza za frilensere",
+  description:
+    "Ovaj kalkulator je namenjen onima koji ostvaruju prihode kao slobodni umetnici, frilenseri, instruktori stranih jezika...",
 };
 
 function page() {

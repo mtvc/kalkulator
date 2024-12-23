@@ -81,12 +81,6 @@ function HomeText() {
                   <h3 className="text-xl font-semibold ">Štedi vreme</h3>
                 </li>
               </ol>
-              {/* Kalkulatori i konverteri su ključan alat za pojedince koji žele da
-              efikasnije upravljaju svojim vremenom i novcem. Naše aplikacije
-              omogućavaju optimizaciju svakodnevnog rada. Platforma omogućava
-              lakše upravljanje svakodnevnim obavezama. Svaki <b>kalkulator</b>{" "}
-              i <b>konverter</b>, eliminiše nepotrebno gubljenje vremena i
-              pomaže pri fokusiranju na ključne ciljeve. */}
             </div>
           </div>
         </div>
@@ -114,14 +108,15 @@ function HomeText() {
               sport...
             </h2>
             <p className="py-2">
-              Aplikacija za računanje <b>procenata</b>, pretvaranja jedinica za{" "}
-              <b>masu</b> i <b>dužinu</b>, pomoći oko kalkulisanja <b>poreza</b>
-              , do praćenje zdravlja i fitnesa kao što su <b>BMI</b> i brojača
-              kalorija. Naši kalkulatori su dizajnirani da pruže brze i tačne
-              rezultate uz minimalan napor. Dostupno u bilo koje vreme i potpuno
-              besplatno, svaki naš kalkulator je tu da vam pomogne da uštedite
-              vreme. Počnite da istražujete danas i otkrijte koliko život može
-              biti jednostavan sa pravim alatima na dohvat ruke!
+              Aplikacija za računanje <b>procenata</b>, pretvaranje jedinica za{" "}
+              <b>masu</b> i <b>dužinu</b>, pomoć oko kalkulisanja <b>poreza</b>{" "}
+              za frilensere i ugovora o delu, praćenje zdravlja i fitnesa.{" "}
+              <b>BMI</b> i brojač kalorija. Naši kalkulatori su dizajnirani da
+              pruže brze i tačne rezultate uz minimalan napor. Dostupno u bilo
+              koje vreme i potpuno besplatno, svaki naš <b>kalkulator</b> je tu
+              da vam pomogne da uštedite vreme. Počnite da istražujete danas i
+              otkrijte koliko život može biti jednostavan sa pravim alatima na
+              dohvat ruke!
             </p>
           </div>
         </div>

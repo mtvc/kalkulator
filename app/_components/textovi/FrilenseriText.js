@@ -2,10 +2,14 @@ function FrilenseriText() {
   return (
     <div className="px-5 py-14 flex-col w-full md:w-9/12">
       <section className="space-y-4">
-        <h2 className="text-2xl font-bold py-2">Normirani troškovi</h2>
+        <h2 className="text-2xl font-bold py-2">
+          Do kog iznosa frilenseri ne placaju porez?
+        </h2>
         <p className="py-2">
+          <b>Frilenseri porez</b> ne plaćaju do visine normiranih troškova.
           Normirane troškove propisuje država. Za 2024. godinu po modelu I
-          iznose 103,296.00 dinara a po modelu II 62,300.00 dinara.
+          iznose 103,296.00 dinara a po modelu II 62,300.00 dinara. To znači da
+          ste dužni da platite samo doprinos za zdravstveno osiguranje.
         </p>
         <h2 className="text-2xl font-bold py-2">
           Zdravstveno osiguranje kod ZSO

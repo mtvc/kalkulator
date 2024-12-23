@@ -6,7 +6,7 @@ export const metadata = {
     default: "Online kalkulatori - Besplatni online alati za računanje",
   },
   description:
-    "Kalkulatori i konverteri za finansije, sport, matematiku, fiziku...",
+    "Kalkulatori i konverteri za finansije, sport, matematiku, fiziku. Aplikacije za brzo izračunavanje.",
 };
 
 export default function Home() {

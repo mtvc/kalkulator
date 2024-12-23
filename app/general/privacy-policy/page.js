@@ -1,8 +1,6 @@
 export const metadata = {
-  title: {
-    default: "Politika privatnosti",
-    description: "Politika privatnosti za kalkulatori.online",
-  },
+  title: "Politika privatnosti",
+  description: "Politika privatnosti za kalkulatori.online",
 };
 
 function page() {
