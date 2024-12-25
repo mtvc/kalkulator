@@ -1,4 +1,4 @@
-const calculators = [
+export const calculators = [
   {
     id: "procenti",
     path: "/procenti",
@@ -27,10 +27,18 @@ const calculators = [
     label: "Dužine",
     category: ["matematika", "fizika"],
   },
+  {
+    id: "kalkulator-kalorija",
+    path: "/kalkulator-kalorija",
+    className: "bg-teal-500 px-7 py-2 text-white",
+    label: "Kalorije",
+    category: ["sport", "zdravlje"],
+  },
+  {
+    id: "kalkulator-poreza-za-frilensere",
+    path: "/kalkulator-poreza-za-frilensere",
+    className: "bg-cyan-600 px-7 py-2 text-white",
+    label: "Frilenseri porez",
+    category: "finansije",
+  },
 ];
-
-function Api() {
-  return;
-}
-
-export default Api;

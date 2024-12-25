@@ -98,14 +98,14 @@ export default function Procenti() {
             type="text"
             id="input1"
             className="md:w-28 w-1/3 px-2 md:px-3 py-2 border-4 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
-            placeholder="procenat"
+            placeholder="procenat %"
           />
 
           <label
             htmlFor="input2"
             className="block text-xl md:text-xl font-bold text-slate-50"
           >
-            % od
+            od
           </label>
           <input
             type="text"

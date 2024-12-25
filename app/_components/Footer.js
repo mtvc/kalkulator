@@ -45,6 +45,12 @@ function Footer() {
                 Izračunaj BMI
               </Link>
             </li>
+            <li>
+              -{" "}
+              <Link className="hover:underline" href="/kalkulator-kalorija">
+                Izbroj kalorije
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="w-full md:w-4/12 text-center">

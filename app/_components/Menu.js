@@ -29,6 +29,9 @@ function Menu({ style }) {
       <li className="hover:underline">
         <a href="/indeks-telesne-mase">BMI</a>
       </li>
+      <li className="hover:underline ">
+        <a href="/kalkulator-kalorija">Kalorije</a>
+      </li>
       <li className="hover:underline">
         <a href="/konverter-mernih-jedinica-za-masu">Masa</a>
       </li>
