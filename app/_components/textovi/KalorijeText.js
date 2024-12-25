@@ -14,7 +14,7 @@ function KalorijeText() {
         <h2 className="text-2xl font-bold py-2">Dnevni unos kalorija</h2>
         <p className="py-2">
           Odredide u koju grupu spadate preko našeg{" "}
-          <a href="/kalkulator-indeksa-telesne-mase" className="underline">
+          <a href="/indeks-telesne-mase" className="underline">
             BMI kalkulatora
           </a>{" "}
           i napravite jelovnik koji će vam pomoći da sunosite tačno kalorija
