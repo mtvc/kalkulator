@@ -111,12 +111,12 @@ function HomeText() {
               Aplikacija za računanje <b>procenata</b>, pretvaranje jedinica za{" "}
               <b>masu</b> i <b>dužinu</b>, pomoć oko kalkulisanja <b>poreza</b>{" "}
               za frilensere i ugovora o delu, praćenje zdravlja i fitnesa.{" "}
-              <b>BMI</b> i brojač kalorija. Naši kalkulatori su dizajnirani da
-              pruže brze i tačne rezultate uz minimalan napor. Dostupno u bilo
-              koje vreme i potpuno besplatno, svaki naš <b>kalkulator</b> je tu
-              da vam pomogne da uštedite vreme. Počnite da istražujete danas i
-              otkrijte koliko život može biti jednostavan sa pravim alatima na
-              dohvat ruke!
+              <b>BMI</b> i <b>brojač kalorija</b>. Naši kalkulatori su
+              dizajnirani da pruže brze i tačne rezultate uz minimalan napor.
+              Dostupno u bilo koje vreme i potpuno besplatno, svaki naš{" "}
+              <b>kalkulator</b> je tu da vam pomogne da uštedite vreme. Počnite
+              da istražujete danas i otkrijte koliko život može biti jednostavan
+              sa pravim alatima na dohvat ruke!
             </p>
           </div>
         </div>

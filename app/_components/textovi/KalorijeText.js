@@ -17,7 +17,7 @@ function KalorijeText() {
           <a href="/indeks-telesne-mase" className="underline">
             BMI kalkulatora
           </a>{" "}
-          i napravite jelovnik koji će vam pomoći da sunosite tačno kalorija
+          i napravite jelovnik koji će vam pomoći da unosite tačno kalorija
           koliko želite.
         </p>
       </section>
