@@ -15,7 +15,7 @@ function page() {
         Procentni kalkulator
       </h1>
       <Procenti />
-      <div className="md:flex-row md:flex">
+      <div className="flex-col-reverse md:flex-row flex">
         <ProcentiText />
         <Sidebar />
       </div>

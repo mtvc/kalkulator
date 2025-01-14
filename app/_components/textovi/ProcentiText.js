@@ -41,6 +41,16 @@ function ProcentiText() {
         <h2 className="text-2xl font-bold py-2">
           Nekoliko izmišljenih primera gde možete da primenite procentni račun:
         </h2>
+        <h3 className="pt-6 text-xl font-bold">Koliko ulja ide u mešavinu?</h3>
+        <p className="py-2">
+          Trimer za travu radi na mešavinu benzina i 2% ulja. Koliko ulja treba
+          da dodam u 0.7 litara benzina?{" "}
+        </p>
+        <p className="py-2">0.7 / 100 * 2 = 0.007 * 2 = 0.014 </p>
+        <p className="py-2">
+          U 0.7 litara benzina treba dodati 0.014 litara (l) ulja, što je 14
+          mililitara (ml) ulja.{" "}
+        </p>
         <h3 className="pt-6 text-xl font-bold">Umanjena penzija</h3>
         <p className="py-2">
           Ako dobijate penziju, na primer, 25000 dinara, i smanje vam je za 10%
@@ -56,7 +66,7 @@ function ProcentiText() {
         </p>
         <p className="py-2">Vaša penzija je manja za 250 dinara</p>
         <h3 className="pt-6 text-xl font-bold">
-          Kako se racuna procenat sniženja?
+          Kako se računa procenat sniženja?
         </h3>
         <p className="py-2">
           Ako je redovna cena nekog proizvoda u prodavnici 11265.99 dinara a u

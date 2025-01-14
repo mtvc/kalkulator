@@ -104,7 +104,7 @@ function Kalorije() {
                   <span className="w-3/12 pt-2">grama</span>
                 </div>
               </div>
-              <ul className="space-y-2">
+              <ul className="space-y-1">
                 <li>
                   <strong>Kalorije:</strong>{" "}
                   {(
@@ -215,33 +215,39 @@ function Kalorije() {
         <div className="bg-white px-5 py-5">
           <h3 className="text-xl font-bold text-orange-600">Total:</h3>
           <div className="grid grid-cols-2 gap-3">
-            <ul className="py-5 ">
+            <ul className="py-3 gap-5">
               <li className="text-purple-400 font-semibold py-3 text-md">
                 Kalorije:
               </li>
-              <li> {totalValues.calories.toFixed(2)} kCal</li>
+              <li className="text-xl">
+                {" "}
+                {totalValues.calories.toFixed(2)} kCal
+              </li>
               <li className="text-orange-400 font-semibold py-3 text-md">
                 Masti:
               </li>
-              <li> {totalValues.fat.toFixed(2)} gr</li>
+              <li className="text-xl"> {totalValues.fat.toFixed(2)} gr</li>
               <li className="text-yellow-400 font-semibold py-3 text-md">
                 Ugljenihidrati:
               </li>
-              <li> {totalValues.carbohydrates.toFixed(2)} gr</li>
+              <li className="text-xl">
+                {" "}
+                {totalValues.carbohydrates.toFixed(2)} gr
+              </li>
             </ul>
-            <ul className="py-5 ">
+            <ul className="py-3 ">
               <li className="text-blue-400 font-semibold py-3 text-md">
                 Proteini:
               </li>
-              <li> {totalValues.protein.toFixed(2)} gr</li>
+              <li className="text-xl"> {totalValues.protein.toFixed(2)} gr</li>
               <li className="text-green-400 font-semibold py-3 text-md">
                 Vlakna:
               </li>
-              <li> {totalValues.fiber.toFixed(2)} gr</li>
+              <li className="text-xl"> {totalValues.fiber.toFixed(2)} gr</li>
               <li className="text-red-400 font-semibold py-3 text-md">
                 Šećeri:
               </li>
-              <li> {totalValues.sugars.toFixed(2)} gr</li>
+              <li className="text-xl"> {totalValues.sugars.toFixed(2)} gr</li>
             </ul>
           </div>
         </div>

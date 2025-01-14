@@ -81,7 +81,7 @@ function Footer() {
         </div>
         <div className="w-full md:w-4/12 text-center md:text-right md:pr-5">
           <ul>
-            <li>© Kalkulatori.online, 2024</li>
+            <li>© Kalkulatori.online, 2024 - 2025</li>
           </ul>
         </div>
       </div>
