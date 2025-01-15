@@ -15,7 +15,7 @@ function page() {
         Kalkulator kalorija
       </h1>
       <Kalorije />
-      <div className="md:flex-row md:flex">
+      <div className="flex-col-reverse md:flex-row flex">
         <KalorijeText />
         <Sidebar />
       </div>

@@ -72,6 +72,13 @@ function BmiText() {
           Sa druge strane, neuhranjenost se povezuje sa anemijom, osteroporozom
           i drugim oboljenjima.
         </p>
+        <p className="py-2">
+          Postignite željenu težinu uz pomoć našeg{" "}
+          <a href="/kalkulator-kalorija" className="underline">
+            Kalkulatora kalorija
+          </a>{" "}
+          i napravite jelovnik koji će vam pomoći da postignete željenu težinu.
+        </p>
         <div className="px-10 py-10 bg-red-100 rounded-xl">
           <p className="text-red-500">
             Rezultati kalkulatora su samo informativnog karaktera. Pre bilo
