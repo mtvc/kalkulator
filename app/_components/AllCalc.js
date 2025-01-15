@@ -23,7 +23,7 @@ function AllCalc() {
 
   return (
     <div className="px-5 py-5 flex-row flex-wrap md:flex-row flex gap-5">
-      <h3 className="text-xl font-bold">Ostali kalkulatori:</h3>
+      <h3 className="text-xl font-bold w-full">Ostali kalkulatori:</h3>
       {buttons.map((button) => (
         <ButtonCalc
           key={button.id}
