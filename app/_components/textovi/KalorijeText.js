@@ -1,7 +1,31 @@
+import Upozorenje from "../Upozorenje";
+
 function KalorijeText() {
   return (
     <div className="px-5 py-14 flex-col w-full md:w-9/12">
       <section className="space-y-4">
+        <h2 className="text-2xl font-bold py-2">
+          Izracunavanje kalorija u obroku
+        </h2>
+        <p className="py-2">
+          Izaberite namirnice i željene količine i napravite dnevni jelovnik.{" "}
+          <b>Kalkulator</b> sabira ukupne vrednosti <b>kalorija</b>,{" "}
+          <b>masti</b>, <b>ugljenih hidrata</b>, <b>vlakana</b>, <b>proteina</b>{" "}
+          i <b>šećera</b>.
+        </p>
+
+        <p className="py-2">
+          Imajte na umu da individualne potrebe mogu da variraju u zavisnosti od
+          faktora kao što su starost, pol, sastav tela i metabolizam.
+        </p>
+        <p className="py-2">
+          Odredide u koju grupu spadate preko našeg{" "}
+          <a href="/indeks-telesne-mase" className="underline">
+            BMI kalkulatora
+          </a>{" "}
+          i napravite jelovnik koji će vam pomoći da unosite tačno kalorija
+          koliko želite.
+        </p>
         <h2 className="text-2xl font-bold py-2">
           Upravljanje kalorijama i telesnom težinom
         </h2>
@@ -10,13 +34,10 @@ function KalorijeText() {
         </h3>
         <p className="py-2">
           Da biste izgubili 1 kilogram (kg) telesne težine, potrebno je da
-          potrošite približno 7.700 kalorija više nego što unesete. To se
+          potrošite približno 7.000 kalorija više nego što unesete. To se
           ostvaruje kombinacijom fizičke aktivnosti i smanjenim unosom kalorija.
           Ako stvorite dnevni kalorijski deficit od 500 kalorija, trebalo bi oko
-          15-16 dana da izgubite 1 kg. Veći deficit (na primer, 1.000 kalorija
-          dnevno) bi mogao da smanji ovo vreme na oko 8 dana, važno je da
-          izbegnete ekstremne deficite kalorija koji mogu da naškode vašem
-          zdravlju.
+          14 dana da izgubite 1 kg.
         </p>
         <h3 className="text-xl font-bold">Kako sačuvati željenu težinu</h3>
         <p className="py-2">
@@ -47,25 +68,17 @@ function KalorijeText() {
         </p>
         <h3 className="text-xl font-bold">Kako povećati telesnu masu</h3>
         <p className="py-2">
-          Da biste dobili na težini, potreban vam je kalorijski višak, koji
-          troši više kalorija od vašeg TDEE. Bezbedan i efikasan višak je oko
-          250–500 kalorija dnevno. Višak od 500 kalorija dnevno rezultira
-          dobijanjem otprilike 0,5 kg nedeljno. Za brže dobijanje na težini,
-          povećajte višak na 1.000 kalorija dnevno, iako to može dovesti do
-          povećanog debljanja osim ako nije upareno sa treningom snage.
-        </p>
-        <h2 className="text-2xl font-bold py-2">
-          Izracunavanje kalorija u obroku
-        </h2>
-        <p className="py-2">
-          Izaberite namirnice i željene količine i napravite dnevni jelovnik.{" "}
-          <b>Kalkulator</b> sabira ukupne vrednosti <b>kalorija</b>,{" "}
-          <b>masti</b>, <b>ugljenih hidrata</b>, <b>vlakana</b>, <b>proteina</b>{" "}
-          i <b>šećera</b>.
+          Da biste dobili na težini, potreban vam je kalorijski višak. Broj
+          kalorija koje unesete dnevno mora biti veći od vašeg <b>TDEE</b>.
+          Bezbedan i efikasan višak je oko 250–500 kalorija dnevno. Višak od 500
+          kalorija dnevno rezultira dobijanjem otprilike 0,5 kg nedeljno. Za
+          brže dobijanje na težini, povećajte višak na 1.000 kalorija dnevno,
+          iako to može dovesti do povećanog debljanja osim ako nije upareno sa
+          treningom snage.
         </p>
         <h2 className="text-2xl font-bold py-2">Dnevni unos kalorija</h2>
         <ul className="list-disc list-inside py-2">
-          <li>Da izgubite 1 kg: Napravite deficit od 7.700 kalorija.</li>
+          <li>Da izgubite 1 kg: Napravite deficit od oko 7.000 kalorija.</li>
           <li>
             Da biste održali težinu: Uskladite svoj kalorijski unos sa TDEE.
           </li>
@@ -73,24 +86,7 @@ function KalorijeText() {
             Da biste dobili na težini: Dodajte 250–500 kalorija svom TDEE.
           </li>
         </ul>
-        <p className="py-2">
-          Imajte na umu da individualne potrebe mogu da variraju u zavisnosti od
-          faktora kao što su starost, pol, sastav tela i metabolizam.
-        </p>
-        <p className="py-2">
-          Odredide u koju grupu spadate preko našeg{" "}
-          <a href="/indeks-telesne-mase" className="underline">
-            BMI kalkulatora
-          </a>{" "}
-          i napravite jelovnik koji će vam pomoći da unosite tačno kalorija
-          koliko želite.
-        </p>
-        <div className="px-10 py-10 bg-red-100 rounded-xl">
-          <p className="text-red-500">
-            Uvek se konsultujte sa zdravstvenim radnikom ili nutricionistom za
-            personalizovan savet.
-          </p>
-        </div>
+        <Upozorenje />
       </section>
     </div>
   );

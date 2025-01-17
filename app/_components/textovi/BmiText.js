@@ -3,6 +3,7 @@ import TabelaDevojcice from "@/app/indeks-telesne-mase/TabelaDevojcice";
 import TabelaOdrasli from "@/app/indeks-telesne-mase/TabelaOdrasli";
 import Image from "next/image";
 import Link from "next/link";
+import Upozorenje from "../Upozorenje";
 
 function BmiText() {
   return (
@@ -79,12 +80,7 @@ function BmiText() {
           </a>{" "}
           i napravite jelovnik koji će vam pomoći da postignete željenu težinu.
         </p>
-        <div className="px-10 py-10 bg-red-100 rounded-xl">
-          <p className="text-red-500">
-            Rezultati kalkulatora su samo informativnog karaktera. Pre bilo
-            kakve odluke vezane za vaše zdravlje, posavetujte se sa lekarom.
-          </p>
-        </div>
+        <Upozorenje />
       </section>
     </div>
   );
