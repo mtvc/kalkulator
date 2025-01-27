@@ -5,7 +5,7 @@ import ProcentiText from "../_components/textovi/ProcentiText";
 export const metadata = {
   title: "Procentni kalkulator",
   description:
-    "Online kalkulator za izračunavanje procenata % (postotaka). Brzo računanje procenta.",
+    "Procentni kalkulator za brzo računanje postotaka. Unesite iznos i postotak, a kalkulator će izračunati postotak tog iznosa.",
 };
 
 function page() {
