@@ -3,7 +3,7 @@ import Sidebar from "../_components/Sidebar";
 import BmiText from "../_components/textovi/BmiText";
 
 export const metadata = {
-  title: "Kalkulator indeksa telesne mase - BMI",
+  title: "Indeks telesne mase - BMI",
   description:
     "Kalkulator indeksa telesne mase (BMI) sa klasifikacijom SZO. Namenjen deci i odraslima.",
 };

@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Upozorenje from "../Upozorenje";
+import Link from "next/link";
 
 function KalorijeText() {
   return (
@@ -26,6 +28,21 @@ function KalorijeText() {
           i napravite jelovnik koji će vam pomoći da unosite tačno kalorija
           koliko želite.
         </p>
+        <div className="w-full flex place-content-center">
+          <Image
+            src="/kalkulator-kalorija-kalorije-u-obroku.jpg"
+            height="332"
+            width="500"
+            quality={80}
+            className="object-cover"
+            alt="kalkulator-kalorija-kalorije-u-obroku"
+          />
+        </div>
+        <div className="text-xs text-slate-300">
+          <Link href="https://www.vecteezy.com/free-vector/calories">
+            Length Vectors by Vecteezy
+          </Link>
+        </div>
         <h2 className="text-2xl font-bold py-2">
           Upravljanje kalorijama i telesnom težinom
         </h2>

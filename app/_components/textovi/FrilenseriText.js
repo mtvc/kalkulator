@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 function FrilenseriText() {
   return (
     <div className="px-5 py-14 flex-col w-full md:w-9/12">
@@ -11,6 +14,21 @@ function FrilenseriText() {
           iznose 103,296.00 dinara a po modelu II 62,300.00 dinara. To znači da
           ste dužni da platite samo doprinos za zdravstveno osiguranje.
         </p>
+        <div className="w-full flex place-content-center">
+          <Image
+            src="/kalkulator-poreza-za-frilensere.jpg"
+            height="361"
+            width="500"
+            quality={80}
+            className="object-cover"
+            alt="kalkulator-poreza-za-frilensere"
+          />
+        </div>
+        <div className="text-xs text-slate-300">
+          <Link href="https://www.vecteezy.com/free-vector/tax">
+            Length Vectors by Vecteezy
+          </Link>
+        </div>
         <h2 className="text-2xl font-bold py-2">
           Zdravstveno osiguranje kod ZSO
         </h2>
