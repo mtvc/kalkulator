@@ -5,9 +5,7 @@ function ProcentiText() {
   return (
     <div className="px-5 py-14 flex-col w-full md:w-9/12">
       <section>
-        <h2 className="text-2xl font-bold py-2">
-          Formula za izracunavanje procenta
-        </h2>
+        <h2 className="text-2xl font-bold py-2">Kako izračunati procenat</h2>
         <p className="py-2">
           <b>Procentni kalkulator</b> izračunava procenat, odnosno, broj stotih
           delova nekog broja (postotak).
