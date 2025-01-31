@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 export async function POST(req) {
   try {
     const { board, cuttingWidth, rectangles } = await req.json();
