@@ -104,14 +104,15 @@ function HomeText() {
         <div className="px-5 w-full md:w-8/12">
           <div>
             <h2 className="text-2xl py-2 font-bold md:mt-10">
-              Kalkulatori i konverteri za matematiku, fiziku, finansije,
-              sport...
+              Kalkulatori i konverteri za matematiku, fiziku, industriju,
+              finansije, sport...
             </h2>
             <p className="py-2">
               Aplikacija za računanje <b>procenata</b>, pretvaranje jedinica za{" "}
               <b>masu</b> i <b>dužinu</b>, pomoć oko kalkulisanja <b>poreza</b>{" "}
-              za frilensere i ugovora o delu, praćenje zdravlja i fitnesa.{" "}
-              <b>BMI</b> i <b>brojač kalorija</b>. Naši kalkulatori su
+              za frilensere i ugovora o delu,{" "}
+              <b>optimizaciju sečenja materijala</b>, praćenje zdravlja i
+              fitnesa. <b>BMI</b> i <b>brojač kalorija</b>. Naši kalkulatori su
               dizajnirani da pruže brze i tačne rezultate uz minimalan napor.
               Dostupno u bilo koje vreme i potpuno besplatno, svaki naš{" "}
               <b>kalkulator</b> je tu da vam pomogne da uštedite vreme. Počnite

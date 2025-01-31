@@ -1,5 +1,12 @@
 export const calculators = [
   {
+    id: "optimizacija-plocastog-materijala",
+    path: "/optimizacija-plocastog-materijala",
+    className: "bg-gray-600 px-7 py-2 text-white",
+    label: "Optimizuj sečenje ploče",
+    category: ["industrija"],
+  },
+  {
     id: "procenti",
     path: "/procenti",
     className: "bg-green-600 px-7 py-2 text-white",
