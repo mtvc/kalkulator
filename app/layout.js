@@ -20,7 +20,7 @@ const geistMono = localFont({
 export const metadata = {
   title: {
     default: "Online kalkulatori",
-    template: "%s - Online kalkulatori",
+    template: "%s - Online kalkulator",
   },
   description: "Online kalkulatori - procenti, dužine, bmi, mase...",
 };

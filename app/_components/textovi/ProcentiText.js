@@ -16,6 +16,10 @@ function ProcentiText() {
           procenata množi sa tim brojem.
         </p>
         <p className="py-2">
+          <b>Procenat</b> se može izračunati i tako što zadati broj množimo sa
+          traženim brojem procenata a zatim se sve deli sa brojem sto (100).
+        </p>
+        <p className="py-2">
           Procenat (postotak) je jedna od osnovnih i najčešće korišćenih
           matematičkih operacija. Koristi se svakodnevno u različitim
           situacijam. Neke od primera iz svakodnevnog života ćemo predstaviti
