@@ -179,7 +179,6 @@ function Frilenseri() {
       rezident: value,
     }));
   };
-  console.log(formData);
 
   //Osiguran po drugom osnovu
   const toggleCheckbox = () => {

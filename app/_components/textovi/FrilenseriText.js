@@ -10,7 +10,16 @@ function FrilenseriText() {
         </h2>
         <p className="py-2">
           Upišite ostvaren bruto prihod za kvartal za koji hoćete da obračunate
-          porez. Kalkulator će izračunati porez po dva modela.
+          porez. Kalkulator će izračunati dva modela oporezivanja.
+        </p>
+        <p className="py-2">
+          Poreska prijava se podnosi u roku od 30 dana od isteka kvartala u kome
+          su ti prihodi ostvareni. Pod kvartalom se podrazumeva tromesečje
+          (januar-mart, april-jun, jul-septembar, oktobar - decembar) što znači
+          da je rok za podnošenje poreske prijave za prvi kvartal april, za
+          drugi kvartal jul, za treći kvartal oktobar, za četvrti januar.{" "}
+          <b>Promena modela moguća je za svaki kvartal</b>, tj možete da
+          izaberete poreski povoljniju opciju.
         </p>
         <h2 className="text-2xl font-bold py-2">
           Do kog iznosa frilenseri ne placaju porez?

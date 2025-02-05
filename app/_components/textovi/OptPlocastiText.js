@@ -33,6 +33,7 @@ function OptPlocastiText() {
           quality={80}
           className="object-cover"
           alt="Optimizacija sečenja pločastog materijala"
+          priority={true}
         />
       </div>
       <div className="text-xs text-slate-300">
