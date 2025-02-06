@@ -6,51 +6,10 @@ function Footer() {
       <div className="md:w-8/12 mx-auto flex flex-col md:flex-row w-full gap-4 leading-8 ">
         <div className="w-full md:w-4/12 text-center md:text-start">
           <ul>
-            <li>
-              -{" "}
-              <Link
-                className="hover:underline"
-                href="/kalkulator-poreza-za-frilensere"
-              >
-                Porez za frilensere
-              </Link>
-            </li>
-            <li>
-              -{" "}
-              <Link className="hover:underline" href="/procenti">
-                Odredi procenat
-              </Link>
-            </li>
-            <li>
-              -{" "}
-              <Link
-                className="hover:underline"
-                href="/konverter-mernih-jedinica-za-masu"
-              >
-                Konvertuj mase
-              </Link>
-            </li>
-            <li>
-              -{" "}
-              <Link
-                className="hover:underline"
-                href="/konverter-mernih-jedinica-za-duzinu"
-              >
-                Pretvori dužine
-              </Link>
-            </li>
-            <li>
-              -{" "}
-              <Link className="hover:underline" href="/indeks-telesne-mase">
-                Izračunaj BMI
-              </Link>
-            </li>
-            <li>
-              -{" "}
-              <Link className="hover:underline" href="/kalkulator-kalorija">
-                Izbroj kalorije
-              </Link>
-            </li>
+            <li>- Industrija</li>
+            <li>- Finansije</li>
+            <li>- Sport i zdravlje</li>
+            <li>- Matematika i fizika</li>
           </ul>
         </div>
         <div className="w-full md:w-4/12 text-center">
